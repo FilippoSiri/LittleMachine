@@ -7,7 +7,8 @@ le api fetch per inviare le richieste al server e JQuery per gestire gli eventi.
 ## Contenuto del repository
 * [Le api che implementano il backend](/public_html/api)
 * [I file css](/public_html/css)
-* [Pagine php che vengono incluse](/public_html/include)
+* [Pagine php che vengono incluse perchè implementano parti di codice che
+  vengono ripetute](/public_html/include)
 * [File JavaScript](/public_html/js)
 * [Pagine php che realizzano l'interfaccia grafica del sito](/public_html/pages)
 * [Test che verificano la creazione di un utente, il login e la modifica](/public_html/test)
