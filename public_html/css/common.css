@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body{
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins',sans-serif;
+  color: #222 !important;
+  font-size: 13px !important; 
+  line-height: 1.8 !important;
+  color: #222 !important;
+  background: #f8f8f8 !important;
+}
+
+.navbar{
+  padding:.8rem;
+}
+
+.navbar-nav li{
+  padding-right: 20px;
+}
+
+.nav-link{
+  font-size:1.4em !important;
+}
+
+.carousel-inner img{
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-caption{
+  position:absolute;
+  top:50%;
+  transform: translateY(-50%);
+}
+
+.carousel-caption h1{
+  font-size:500%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000;
+}
+
+.carousel-caption h3{
+  font-size:200%;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000;
+  padding-bottom:1rem;
+}
+
+.btn-primary{
+  background-color: #6648b1;
+  border: 1px solid #563d7c;
+}
+
+.btn-primary:hover{
+  background-color: #563d7c;
+  border: 1px solid #563d7c;
+}
+
+.padding{
+  padding-bottom: 2rem;
+}
+
+.welcome{
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2px ;
+}
+
+.welcome hr{
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+
+
+
+footer{
+  background-color:#232324 !important;
+  color:#d5d5d5;
+  padding-top: 2rem;
+}
+
+hr.light{
+  border-top: 1px solid #d5d5d5;
+  width:75%;
+  margin-top: .8rem;
+  margin-bottom:1rem;
+}
+
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+  }
+@media (max-width: 768px) {
+  
+}
+@media (max-width: 576px) {
+  
+}
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  margin: 0!important;
+  display: block;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70vh;
+
+}
+#fixed {
+  background-image: url('../img/modelliniFixed.jpg');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+.spazioSinistra {
+  padding-left: 26px;
+}
+
+#cart-icon:hover,#order-icon:hover{
+  color: rgba(255,255,255,.75);
+  
+}
+
+#cart-icon,#order-icon{
+  border-radius: 500px;
+  color: rgba(255,255,255,.5);
+
+}
+
+#cart-icon.active,#order-icon.active{
+  color:#fff!important;
+}
+
+#cart-icon.animazione{
+  animation: cambiaColoreIcona 1s 1;
+}
+
+@keyframes cambiaColoreIcona {
+  from {background-color: #232324;color:#fff;}
+  to {background-color: #fff;color:#232324;}
+}
+
+.noMargin{
+  margin: 0px !important;
+}
+
+@media (min-width: 576px){
+.modal-sm {
+    max-width: 40% !important;
+}
+}
+
+.header{
+  margin-bottom: 105px;
+}
+
+.margin{
+  margin:30px;
+}
+
+.coloreSito{
+  background-color: #232324 !important;
+}
+
+.testoCategoria{
+  color: rgba(255,255,255,.5) !important;
+  background-color: transparent !important;
+  text-decoration: none !important;
+  border-bottom:2px #d6d3bf;
+  padding-bottom: 5px;
+}
+
+.testoCategoria:link {
+  color: rgba(255,255,255,.5) !important;
+  background-color: transparent !important;
+  text-decoration: none !important;
+  border-bottom:2px #d6d3bf;
+  padding-bottom: 5px;
+}
+
+
+.testoCategoria:hover {
+  color: rgba(255,255,255,.75) !important;
+  background-color: transparent !important;
+  
+  border-bottom:2px #d6d3bf;
+  padding-bottom: 5px;
+}
+
+.testoCategoria:active {
+  color: rgba(255,255,255,.5) !important;
+  background-color: transparent !important;
+  text-decoration: none !important;
+  border-bottom:2px #d6d3bf;
+  padding-bottom: 5px;
+}
+
+.titoloPagina{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3vh;
+  margin: auto;
+  text-align: center;
+}
+
+.sottotitoloPagina{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.5vh;
+  margin: auto;
+  text-align: center;
+}
+
+.linkFooter{
+  color:#777!important;
+  text-decoration: none;
+}
+.linkFooter:link{
+  color:#777!important;
+  text-decoration: none;
+}
+.linkFooter:hover{
+  color:#777!important;
+  text-decoration: none;
+}
