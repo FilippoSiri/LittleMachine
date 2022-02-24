@@ -1,7 +1,7 @@
 # Little Machine
 Si tratta di un progetto universitario realizzato da me e da un mio compagno di
-corso per l'esame di sviluppo di applicazioni web.
-Si tratta di un e-commerce specializzato nella vendita di modellini di auto. \
+corso per l'esame di sviluppo di applicazioni web dove abbiamo dovuto implementare un e-commerce 
+specializzato nella vendita di modellini di auto. \
 Il progetto è stato realizzato utilizzando il PHP per implementare il backend, MySQL come database,
 le api fetch per inviare le richieste al server e JQuery per gestire gli eventi.
 ## Contenuto del repository
