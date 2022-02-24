@@ -1,17 +1,17 @@
-#Little Machine
+# Little Machine
 Si tratta di un progetto universitario realizzato da me e da un mio compagno di
 corso per l'esame di sviluppo di applicazioni web.
 Si tratta di un e-commerce specializzato nella vendita di modellini di auto. \
 Il progetto è stato realizzato utilizzando il PHP per implementare il backend, MySQL come database,
 le api fetch per inviare le richieste al server e JQuery per gestire gli eventi.
-##Contenuto del repository
+## Contenuto del repository
 * [Le api che implementano il backend](/public_html/api)
 * [I file css](/public_html/css)
 * [Pagine php che vengono incluse](/public_html/include)
 * [File JavaScript](/public_html/js)
 * [Pagine php che realizzano l'interfaccia grafica del sito](/public_html/pages)
 * [Test che verificano la creazione di un utente, il login e la modifica](/public_html/test)
-##Funzionalità fornite
+## Funzionalità fornite
 Il sito realizzato contiene le seguente funzionalità:
 * Ricerca di un prodotto
 * Creazione, login e modifica di un utente
@@ -23,9 +23,9 @@ Il sito realizzato contiene le seguente funzionalità:
   momento dell'ordine.
 * Insieme di API per accedere alle funzionalità fornite dall'e-commerce funzionanti tramite
   le sessioni
-##Parti da implementare
+## Parti da implementare
 In tutto il progetto non sono stati implementati i pagamenti.
-##Installazione
+## Installazione
 Per installare il l'e-commerce è necessario realizzare il database 
 importando il file [progettoSAW.sql](/public_html/database/progettoSAW.sql)
 ed inserire all'interno del file [creds.php](creds.php) le credenziali necessarie per 
