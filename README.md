@@ -31,8 +31,3 @@ Per installare il l'e-commerce è necessario realizzare il database
 importando il file [progettoSAW.sql](/public_html/database/progettoSAW.sql)
 ed inserire all'interno del file [creds.php](creds.php) le credenziali necessarie per 
 accedere al database.
-## Garanzia limitata ed esclusioni di responsabilità
-Trattandosi di un progetto universitario, il codice viene fornito senza garanzie. Non si concede alcuna garanzia per il software in termini di correttezza, accuratezza, affidabilità o altro. L'utente si assume totalmente il rischio utilizzando questo applicativo.
-## Licenza
-Il codice sorgente viene rilasciato con licenza [MIT](/../main/LICENSE). Framework, temi, librerie e tutte le tecnologie mantengono le loro relative licenze.
-  
